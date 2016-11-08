@@ -6,3 +6,22 @@ html, body {
 line {
 	stroke: red;
 }
+
+g.group0 path,
+g.group0 circle {
+	stroke: red;
+	fill: none;
+}
+
+g.tick line {
+	stroke: blue;
+}
+
+g.tick text {
+	font-size: 12px;
+	fill: purple;
+}
+
+g.hidden line, path {
+	display: none;
+}
