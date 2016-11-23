@@ -7,6 +7,12 @@ line {
 	stroke: red;
 }
 
+path { 
+	stroke: green;
+	fill: none;
+	stroke-width: 2px;
+ }
+
 g.group0 path,
 g.group0 circle {
 	stroke: red;
@@ -22,6 +28,21 @@ g.tick text {
 	fill: purple;
 }
 
-g.hidden line, path {
+/*g.hidden line, path {
 	display: none;
+}*/
+
+rect {
+	fill: lightblue;
+	stroke: cornflowerblue;
+}
+
+circle {
+	fill: indianred;
+}
+
+text {
+	font-family: arial;
+	fill: white;
+	font-size: 11px;
 }
